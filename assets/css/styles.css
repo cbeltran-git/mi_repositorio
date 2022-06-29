@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+html{
+	box-sizing: border-box;
+    font-size: 62.5%;
+}
+/*---------------------------HEADER----------------------------*/
+header{
+    background-color: black;
+    height: 300px; 
+    width: auto;
+    position: relative;     
+}
+
+
+h1{
+    color:white;
+    text-align: center;  
+    font-size: 62.5px; 
+    padding-top: 30px;
+    font-family: 'Poor Richard';       
+}
+
+.img-logo{
+    height: 160px;
+    width:70px;
+    margin-top: -130px;
+    margin-left: 70px;   
+}
+
+nav{
+    
+    display: inline;
+    margin-left: 245px;	 
+    
+}
+.estilo{
+    display: inline; 
+	padding: 10px;
+    
+    
+}
+
+ul  {
+    
+    list-style: none;
+    font-size:0;      
+    }
+
+li {
+    padding-top:50px;
+    display: inline-block;               
+    }
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+    margin-top: -25px;
+    
+}
+
+ul li:hover ul {                                                                
+    position: absolute;
+    display:block;
+    background-color: black;  
+    padding-bottom: 30px; 
+}
+
+nav ul li a{
+    
+    color:white;
+    text-decoration: none;
+    font-family: 'Copperplate Gothic';
+    font-size: 17px;
+    padding: 35px;                                                                                                      ;
+
+}
+
+/*----------------FOOTER---------------*/
+
+footer h3{
+    font-size: 20px; 
+}
+
+footer a{
+    font-size: 15px;
+}
+.info-section h3{
+    font-size: 22px;
+    text-align: center;
+    font-family:'Poor Richard' ;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.info-section{
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;   
+    border-bottom: solid 3px rgb(179, 179, 179);
+}
+
+.info-section a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    gap:0px
+}
+
+.enlaces-box li{
+    display: block;
+    padding: 6px;
+}
+.box-contacto h4{
+    font-size: 25px;
+}
+.box-contacto svg{
+    margin-left: 33px;
+    
+}
+
+.copy p{
+    font-size: 15px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copy-section{
+    
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copy{
+    text-align: center;
+    padding-bottom:20px;
+    border-bottom: solid 3px rgb(179, 179, 179);   
+}
+.copy-section .advertencia p{
+    text-align: center;
+    padding-top: 30px;
+    color:#FFBC00; 
+    font-size: 15px;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*-----------------INICIO PAGE-------------------------*/
+.subtitulo-h2{
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Poor Richard';  
+    letter-spacing: 10px; 
+}
+.portada{
+display: flex;
+margin-left: 150px;
+margin-bottom: 40px;
+}
+.img-portada1{
+    
+    height: 80rem;
+    width: auto;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.img-portada2{   
+    height: 39rem;
+    width: 35rem;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.img2{
+display: block; 
+margin-top: -15px;
+margin-left: 30px;
+}
+.descripcion-section h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.espaciado__h3{
+    margin: 5rem 40rem 5rem 40rem;
+}
+
+.subtitulo{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poor Richard'; 
+}
+
+.categorias{
+    margin-left: 150px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+section .categorias svg{
+    padding-left: 150px;
+}
+
+/*------------NOSOTROS PAGE---------------*/
+
+.bienvenidos-h3{
+    font-size: 55px;
+    font-family: 'Poor Richard';
+    text-align: center;
+    text-decoration:solid overline;
+    }
+.nosotrosDescripcion-p{
+    font-size: 20px;
+    text-align: center;
+    padding: 120px 200px 120px 200px;
+    font-family:'Copperplate Gothic' ;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+    
+    }
+.baner{
+    width:1520px ;
+    height: 700px;
+    
+}
+
+/*--------------PRODUCTOS PAGE -----------------*/
+
+.productos-section{
+    display: inline-block;
+}
+.producto{   
+    
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 100px;
+}
+.productos-div{
+    
+    row-gap: 100px;
+    margin-left: 10rem;
+    margin-bottom: 5rem;  
+    margin-top: 5rem;
+}
+
+.subtitulo-filtro_h3{
+    font-size: 30px;
+}
+
+.filtro-chk{
+display: block;
+margin-top: -33px;
+font-size: 18px;
+
+}
+
+.filtro-div{
+    margin-top: 70px;
+    margin-left: 30px;
+    
+}
+.filtro-div h4{
+    font-size: 25px;
+    padding-top: 15px;
+    
+}
+
+.productos-div{
+    display: block;
+    margin-top: -500px;
+    margin-left: 200px;
+}
+
+
+
+/*-------------CONTACTO PAGE-------------*/
+
+.subtitulo-p{  
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Rage';
+}
+.contacto-section h3{
+    font-size: 40px;
+    text-align: center;
+    font-family:'Trebuchet MS'
+    
+}
+
+.formulario{
+    display: block;
+    margin-top: 40px;
+    text-align: center; 
+}
+
+form label{
+    font-size: 22px;
+    display: block;
+    padding-top: 20px;
+    
+}
+
+.txt-registro{
+    font-size: 17px;
+    width: 400px;
+    margin-left: 20px;
+    font-family:'Trebuchet MS';
+}
+
+.txt-area{
+    font-size: 17px;
+    margin-top: 20px;
+    width: 450px;
+    height: 300px;
+    font-family:'Trebuchet MS';
+}
+.label-chk{
+    font-size: 18px;
+    font-family:'Trebuchet MS';
+    margin-bottom: 20px;
+}
+
+.boton-enviar{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-family:'Trebuchet MS';
+    font-size: 16px; 
+}
+
+/*---------------UBICACIÓN PAGE------------*/
+.visita-h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Poor Richard';
+    text-decoration: overline;
+}
+
+.direccion-box{
+    margin-left: 70px;
+}
+.direccion-box iframe{
+    
+    margin: -300px 340px 0px 340px;
+}
+
+.direccion-box h3{
+    font-size: 22px;  
+    margin-top: 220px;
+    text-decoration: underline;
+    font-family: 'Poor Richard';
+    letter-spacing: 1px;
+    
+}
+.direccion-box h4{
+    font-size: 22px;
+    margin-top: 27px;
+}
+.direccion-box p{
+    font-size: 18px;
+}
